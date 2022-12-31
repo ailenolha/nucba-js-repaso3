@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JS - Repaso</title>
+  </head>
+  <body>
+    <main>
+      <h1>Clase de Repaso Javascript - 15/12</h1>
+
+      <p>
+        Ejercicio 1:
+        Mostrar todos los productos al clickear en el botón "Mostrar todos los productos", y al clickear "Ocultar productos" que desaparezcan.
+      </p>
+
+      <button id="btnShowProducts" class="btn">Mostrar todos los productos</button>
+      <button id="btnHideProducts" class="btn">Ocultar productos</button>
+
+      <div id="cardsContainer">
+
+      </div>
+
+      <br>
+      <hr class="hr" />
+      <br>
+
+      <p>
+        Ejercicio 2:
+        Mostrar solo 5 productos al clickear en el botón "Mostrar todos los productos", y al clickear "Ocultar productos" que desaparezcan.
+      </p>
+
+      <button id="btnShowProducts2" class="btn">Mostrar todos los productos</button>
+      <button id="btnHideProducts2" class="btn">Ocultar productos</button>
+
+      <div id="cardsContainer2">
+
+      </div>
+
+      <br>
+      <hr class="hr" />
+      <br>
+
+      <p>
+        Ejercicio 3:
+        Ingresar un número en el buscador, mostrar el producto que coincida con el id, y en el caso de que
+        no coincida con ninguno que se muestre un mensaje que diga "No disponemos del producto buscado".
+      </p>
+
+      <form id="form">
+        <label class="form__label">Ingrese un número para que busquemos el producto: </label>
+        <div class="search-container">
+            <div class="input-container">
+                <input type="number" class="form__input">
+            </div>
+
+            <button class="form__btn btn">Buscar</button>
+        </div>
+      </form>
+
+      <div id="cardContainer">
+
+      </div>
+
+      <br>
+      <hr class="hr" />
+
+    </main>
+
+    <!-- scripts -->
+    <script src="./main.js"></script>
+  </body>
+</html>
